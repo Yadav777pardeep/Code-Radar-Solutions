@@ -6,7 +6,7 @@ int main(){
     scanf("%s",&b);
 
     printf("%s",a);
-    printf(" and ");
+    printf("and");
     printf("%s",b);
     return 0;
 }
