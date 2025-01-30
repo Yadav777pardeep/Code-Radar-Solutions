@@ -5,11 +5,11 @@ int main(){
     scanf("%d",&row);
 
     int i = row;
-    while(i>0){
+    while(row>0){
         for(int i=row;i>0;i--){
             printf("*");
         }   printf("\n");
-        i--;
+        row--;
     }  
 
     return 0;
