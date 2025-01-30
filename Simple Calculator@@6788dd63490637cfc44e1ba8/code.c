@@ -7,19 +7,13 @@ int main(){
     char c;
     scanf("%c",&c);
 
-    char d,e,f,g;
-    d='+';
-    e='-';
-    f='*';
-    g='/';
-
-    if(c==d){
+    if(c=='+'){
         printf("%d",a+b);
-    }else if(c==e){
+    }else if(c=='-'){
         printf("%d",a-b);
-    }else if(c==f){
+    }else if(c=='*'){
         printf("%d",a*b);
-    }else if(c==g){
+    }else if(c=='/'){
         if(b==0){
             printf("error");
         }else{
