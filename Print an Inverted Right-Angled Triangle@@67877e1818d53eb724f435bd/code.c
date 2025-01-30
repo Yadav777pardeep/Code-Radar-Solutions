@@ -8,7 +8,7 @@ int main(){
     while(i>0){
         for(int i=row;i>0;i--){
             printf("*");
-        }
+        }   printf("\n");
         i-=1;
     }  
 
