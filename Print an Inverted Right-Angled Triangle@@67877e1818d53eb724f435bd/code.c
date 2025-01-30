@@ -4,8 +4,13 @@ int main(){
     int row;
     scanf("%d",&row);
 
-    for(int i=row;i=1;i--){
-        printf("*"*i);
-    }
+    int i = row;
+    while(i>0){
+        for(int i=row;i=0;i--){
+            printf("*")
+        }
+        i-=1;
+    }  
+
     return 0;
 }
