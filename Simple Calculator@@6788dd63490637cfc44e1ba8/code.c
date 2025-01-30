@@ -14,13 +14,17 @@ int main(){
     g='/';
 
     if(c==d){
-        printf("%f",a+b);
+        printf("%d",a+b);
     }else if(c==e){
-        printf("%f",a-b);
+        printf("%d",a-b);
     }else if(c==f){
-        printf("%f",a*b);
+        printf("%d",a*b);
     }else if(c==g){
-        printf("%f",a/b);
+        if(b==0){
+            printf("error");
+        }else{
+            printf("%d",a/b);
+        }
     }else{
         printf("error");
     }
