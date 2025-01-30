@@ -2,10 +2,8 @@
 
 int main(){
     int a,b;
-    scanf("%d",&a);
-    scanf("%d",&b);
     char c;
-    scanf("%c",&c);
+    scanf("%d %d %c",&a,&b,&c);
 
     if(c=='+'){
         printf("%d",a+b);
