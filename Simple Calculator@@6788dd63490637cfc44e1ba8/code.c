@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int a,b;
+    int a,b,;
+    char d;
     scanf("%d",&a);
     scanf("%d",&b);
+    scanf("%c",&d)
     char c;
     scanf("%c",&c);
 
