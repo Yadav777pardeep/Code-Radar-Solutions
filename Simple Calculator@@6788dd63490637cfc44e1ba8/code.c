@@ -5,17 +5,22 @@ int main(){
     char d;
     scanf("%d",&a);
     scanf("%d",&b);
-    scanf("%c",&d)
     char c;
     scanf("%c",&c);
 
-    if(c=='+'){
+    char d,e,f,g;
+    d='+';
+    e='-';
+    f='*';
+    g='/';
+
+    if(c==d){
         printf("%f",a+b);
-    }else if(c=='-'){
+    }else if(c==e){
         printf("%f",a-b);
-    }else if(c=='*'){
+    }else if(c==f){
         printf("%f",a*b);
-    }else if(c=='/'){
+    }else if(c==g){
         printf("%f",a/b);
     }else{
         printf("error");
