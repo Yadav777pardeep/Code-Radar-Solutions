@@ -6,7 +6,7 @@ int main(){
 
     int i = row;
     while(i>0){
-        for(int i=row;i=0;i--){
+        for(int i=row;i>0;i--){
             printf("*")
         }
         i-=1;
