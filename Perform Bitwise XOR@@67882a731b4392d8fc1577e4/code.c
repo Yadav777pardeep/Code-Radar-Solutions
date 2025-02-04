@@ -5,7 +5,7 @@ int main(){
 
     scanf("%d %d",&a,&b);
 
-    result=a^b;
+    result=a ^ b;
 
     print("%d",result);
 
