@@ -7,7 +7,7 @@ int main(){
 
     result=a ^ b;
 
-    print("%d",result);
+    printf("%d",result);
 
     return 0;
 }
