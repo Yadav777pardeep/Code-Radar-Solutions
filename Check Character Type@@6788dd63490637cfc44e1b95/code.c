@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int c;
-    scanf("%c",&c);
+    int new1;
+    scanf("%c",&new1);
 
-    if(c>=a && c<=e){
+    if(new1>=a && new1<=e){
         printf("Vowel");
     }else{
         printf("Consonant");
