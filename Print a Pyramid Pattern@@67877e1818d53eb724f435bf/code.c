@@ -5,6 +5,6 @@ int main(){
     scanf("%d",&n);
 
     if(n==1){
-        printf("%c","*");
+        printf("%c",'*');
     }
 }
