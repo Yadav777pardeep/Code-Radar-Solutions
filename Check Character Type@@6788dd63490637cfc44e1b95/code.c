@@ -11,7 +11,7 @@ int main(){
         if(one>=a || one<=e){
             printf("Vowel");
         }else{
-            printf("Consonant")
+            printf("Consonant");
         }
     }
 }
