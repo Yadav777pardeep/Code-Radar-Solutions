@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,c;
+    int a,b,;
 
     scanf("%d %d",&a,&b);
 
-    c = c & ~(1<<b);
+    a= a & ~(1<<b);
 
-    printf("%d",c);
+    printf("%d",a);
 return 0;
 }
