@@ -7,11 +7,11 @@ int main(){
 
     if(isdigit(one)){
         printf("Digit");
-    }else(isalpha(one)){
-        if(one>=a || one<=e){
+    }else if(isalpha(one)){
+        if(one=='a'||one=='e'||one=='i'||one=='o'||one=='u'){
             printf("Vowel");
         }else{
             printf("Consonant");
-        }
     }
+}
 }
