@@ -1,13 +1,17 @@
 #include <stdio.h>
+#include<ctype.h>
 
 int main(){
-    char a,e;
-    int new1;
-    scanf("%c",&new1);
+    char one;
+    scanf("%c",&one);
 
-    if(new1>=a && new1<=e){
-        printf("Vowel");
-    }else{
-        printf("Consonant");
+    if(isdigit(one)){
+        printf("Digit");
+    }else(isalpha(one)){
+        if(one>=a || one<=e){
+            printf("Vowel");
+        }else{
+            printf("Consonant")
+        }
     }
 }
