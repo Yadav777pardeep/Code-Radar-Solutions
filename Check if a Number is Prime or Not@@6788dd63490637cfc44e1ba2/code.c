@@ -7,14 +7,12 @@ int main(){
 
     if(a<=1){
         printf("Not Prime");
-        break
     }else if(a==2){
         printf("Prime");
     }else{
             for(int i=2;i<=sqrt(a);i++){
                 if(a%i==0){
                     printf("Not Prime");
-                    return 0;
 
                 }
             }
