@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int one;
-    scanf("%d",&one);
+    char one;
+    scanf("%c",&one);
 
-    if(one>=a && one<=z){
+    if(one>='a' && one<='z'){
         printf("Lowercase");
     }else{
         printf("Uppercase");
