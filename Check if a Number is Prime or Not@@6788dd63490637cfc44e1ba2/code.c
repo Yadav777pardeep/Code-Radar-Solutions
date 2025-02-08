@@ -5,9 +5,9 @@ int main(){
     int a;
     scanf("%d",&a);
 
-    if(n<=1){
+    if(a<=1){
         printf("Not Prime");
-    }else if(n==2){
+    }else if(a==2){
         printf("Prime");
     }else{
             for(int i=2;i=sqrt(a);i++){
