@@ -6,7 +6,9 @@ int main(){
 
     if(one>='a' && one<='z'){
         printf("Lowercase");
-    }else{
+    }else if(one>='A'&& one<='Z'){
         printf("Uppercase");
+    }else{
+        printf("Not an alphabet");
     }
 }
