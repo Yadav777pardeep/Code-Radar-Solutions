@@ -5,8 +5,8 @@ int main(){
     scanf("%d,&F");
 
     if(F<0){
-        printf("Above Freezing");
-    }else{
         printf("Freezing");
+    }else{
+        printf("Above Freezing");
     }
 }
