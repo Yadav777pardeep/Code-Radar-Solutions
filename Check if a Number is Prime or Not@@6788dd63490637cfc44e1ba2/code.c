@@ -10,12 +10,13 @@ int main(){
     }else if(a==2){
         printf("Prime");
     }else{
-            for(int i=2;int i=sqrt(a);i++){
+            for(int i=2;i=sqrt(a);i++){
                 if(a%i==0){
                     printf("Not Prime");
                 }
             }
             
 
-    }printf("Prime");
+    }
+    printf("Prime");
 }
