@@ -5,8 +5,8 @@ int main(){
     scanf("%c",&one);
 
     if(one>=a && one<=z){
-        printf("Lowercase")
+        printf("Lowercase");
     }else{
-        printf("Uppercase")
+        printf("Uppercase");
     }
 }
