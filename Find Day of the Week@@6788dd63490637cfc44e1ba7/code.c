@@ -19,3 +19,4 @@ int main(){
     }else {
         printf("Sunday");
     }
+}
