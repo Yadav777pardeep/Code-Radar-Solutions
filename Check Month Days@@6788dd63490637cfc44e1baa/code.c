@@ -13,7 +13,7 @@ int main(){
     }else if(a==2){
         printf("%d",two);
     }else if(a>12){
-        printf("Invalid Month");
+        printf("Invalid month");
     }
     
     else{
