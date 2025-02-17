@@ -4,5 +4,5 @@ int main(){
 
     scanf("%s",&a);
 
-    printf("You enetered: %s",a);
+    printf("You entered: %s",a);
 }
