@@ -2,10 +2,8 @@
 
 int main(){
     int a,b;
-    scanf("%d",&a);
-    scanf("%d",&b);
     char c;
-    scanf(" %c",&c);
+    scanf("%d %d %c",&a,&b,&c);
 
     if(c=='+'){
         printf("%d",a+b);
@@ -13,11 +11,13 @@ int main(){
         printf("%d",a-b);
     }else if(c=='*'){
         printf("%d",a*b);
-    }else if(c=='/'){
+    }else{
         if(b==0){
             printf("error");
         }else{
-            printf("%d",a/b);
+            if(c=='/'){
+                printf("%d",a/b);
+            }
         }
     }
 }
