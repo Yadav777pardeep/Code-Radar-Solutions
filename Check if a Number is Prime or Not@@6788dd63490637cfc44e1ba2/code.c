@@ -12,7 +12,7 @@ int main(){
         for(int i=1;i<=(n/2)+1;i++){
             if(n%i==0){
                 printf("Not Prime");
-                break;
+                return 0;
             }else{
                 break;
             }
