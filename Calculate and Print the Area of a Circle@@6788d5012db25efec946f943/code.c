@@ -6,5 +6,5 @@ int main(){
 
     int area = 3.14*a*a;
 
-    printf("%d",area);
+    printf("%f",area);
 }
