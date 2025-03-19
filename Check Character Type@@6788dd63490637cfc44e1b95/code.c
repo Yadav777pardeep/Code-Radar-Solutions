@@ -5,7 +5,7 @@ int main(){
     char one;
     scanf("%c",&one);
 
-    if(one=='a'||one=='e'|| one=='i'||one=='o'||one=='u'||one=='A'||one=='E'||one=='I'||one=='O')'||one=='U'){
+    if(one=='a'||one=='e'|| one=='i'||one=='o'||one=='u'||one=='A'||one=='E'||one=='I'||one=='O')'||one=='U'{
         printf("Vowel");
     }else if(isdigit(one)){
         printf("Digit");
