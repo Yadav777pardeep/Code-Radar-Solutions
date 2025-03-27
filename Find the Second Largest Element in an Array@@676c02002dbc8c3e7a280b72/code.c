@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    array(arr[],n);
+    array(arr,n);
     printNum(arr,n);
 }
 
