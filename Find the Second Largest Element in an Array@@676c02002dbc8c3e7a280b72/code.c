@@ -35,8 +35,8 @@ void printNum(int arr[],int n){
         printf("-1");
         return ;
     }
-    for(int i=0;i<=n;i++){
-        if(i==n-2){
+    for(int i=0;i<n;i++){
+        if(i==n-1){
             printf("%d",arr[i]);
         }
     }
