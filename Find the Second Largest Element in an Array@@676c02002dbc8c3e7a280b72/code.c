@@ -1,5 +1,5 @@
-int array(int arr[],int n);
-int printNum(int arr[],int n);
+void array(int arr[],int n);
+void printNum(int arr[],int n);
 int main(){
     int n;
     scanf("%d",&n);
@@ -12,7 +12,7 @@ int main(){
     printNum(arr,n);
 }
 
-int array(int arr[],int n){
+void array(int arr[],int n){
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
             int temp=arr[j];
@@ -22,6 +22,6 @@ int array(int arr[],int n){
     }
 }
 
-int printNum(int arr[],int n){
+void printNum(int arr[],int n){
     printf("%d",arr[n-2]);
 }
