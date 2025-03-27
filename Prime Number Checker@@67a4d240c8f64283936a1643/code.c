@@ -1,5 +1,5 @@
 int isPrime(int num){
-    if(num==0 || num==1){
+    if(num<=1){
         printf("0\n");
         return 0;
     }if(num==2){
