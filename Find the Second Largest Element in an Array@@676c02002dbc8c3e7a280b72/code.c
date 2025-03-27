@@ -26,5 +26,9 @@ void array(int arr[],int n){
 }
 
 void printNum(int arr[],int n){
-    printf("%d",arr[n-2]);
+    for(int i=0;i<=n;i++){
+        if(i==n-1){
+            printf("%d",arr[i]);
+        }
+    }
 }
