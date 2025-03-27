@@ -15,9 +15,9 @@ int main(){
             break;
         }
     }
-   if(k==0){
     printf("Sorted");
-   }
+    }
+
 
     return 0;
 }
