@@ -30,6 +30,8 @@ void array(int arr[],int n){
 void printNum(int arr[],int n){
     if(n==1){
         printf("-1");
+    }else if(arr[0] == arr[n-1]){
+        printf("-1");
     }
     for(int i=0;i<=n;i++){
         if(i==n-2){
