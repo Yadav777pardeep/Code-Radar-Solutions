@@ -1,5 +1,8 @@
+#include<stdio.h>
+
 void array(int arr[],int n);
 void printNum(int arr[],int n);
+
 int main(){
     int n;
     scanf("%d",&n);
