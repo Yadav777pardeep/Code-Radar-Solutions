@@ -1,5 +1,5 @@
 int array(int arr[],int n);
-
+int printNum(int arr[],int n);
 int main(){
     int n;
     scanf("%d",&n);
