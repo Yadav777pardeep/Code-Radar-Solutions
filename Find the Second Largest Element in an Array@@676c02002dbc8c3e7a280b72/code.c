@@ -36,7 +36,7 @@ void printNum(int arr[],int n){
         return ;
     }
     for(int i=0;i<n;i++){
-        if(i==n-1){
+        if(i==n-2){
             printf("%d",arr[i]);
         }
     }
