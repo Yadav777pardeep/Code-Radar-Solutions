@@ -16,7 +16,3 @@ int printArray(int arr[],int n){
         printf("%d ",arr[i]);
     }
 }
-
-int main(){
-    selectionSort(arr,n);
-}
