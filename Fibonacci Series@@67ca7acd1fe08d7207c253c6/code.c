@@ -3,6 +3,10 @@ int fibonacciSeries(int n){
     int b=1;
     int c;
 
+    if(n==1){
+        printf("%d",a);
+    }
+
     if(n>1){
         printf("%d ",a);
         printf("%d ",b);
