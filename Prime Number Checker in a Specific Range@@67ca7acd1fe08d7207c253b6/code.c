@@ -4,7 +4,6 @@ int isPrime(int n){
         return 0;
     }if(n==2){
         return 1;
-    if()
     }else{
         for(int i=2;i<=n/2 + 1;i++){
             if(n%i==0){
