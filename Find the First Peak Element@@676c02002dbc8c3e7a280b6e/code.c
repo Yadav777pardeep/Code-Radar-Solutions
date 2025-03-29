@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    Array(arr,n);
+    printf("%d",Array(arr,n));
 }
 
 int Array(int arr[],int n){
