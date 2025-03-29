@@ -21,5 +21,5 @@ int Array(int arr[],int n){
             return 0;
         }
         
-    } printf("-1");
+    } 
 }
