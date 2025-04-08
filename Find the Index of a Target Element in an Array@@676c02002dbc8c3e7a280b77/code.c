@@ -9,9 +9,9 @@ int Array(int arr[],int n){
             printf("%d",i);
         }
     }
-    else{
+
         printf("-1");
-    }
+
 }
 
 int main(){
