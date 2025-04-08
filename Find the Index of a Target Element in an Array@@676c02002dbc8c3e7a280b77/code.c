@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 int Array(int arr[],int n){
- 
+    int j;
+    scanf("%d",&j);
     int k=0;
     for(int i=0;i<n;i++){
         if(arr[i]==j){
@@ -25,8 +26,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[n]);
     }
-       int j;
-    scanf("%d",&j);
 
     Array(arr,n);
 }
