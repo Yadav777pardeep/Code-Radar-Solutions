@@ -11,9 +11,7 @@ int Array(int arr[],int n){
             return 0;
         }
     }
-        if(k==0){
-            printf("-1");
-        }
+
         
 
 }
